@@ -34,17 +34,18 @@
 | 5       | run forward                  |
 
 ## 🗂️ Project Structure
-PIbot/
-├── models/ # Face, gesture, and expression models
-├── snowboy/ # Wake word detection module
-├── src/
-│ ├── main.cpp # Main robot control logic
-│ ├── vision/ # Expression & gesture recognition
-│ ├── voice/ # Voice wake and dialogue logic
-│ └── display/ # OLED/LCD display handling
-├── assets/ # Expression icons or animations
-├── scripts/ # Deployment and launch scripts
-└── README.md
+    PIbot/
+    ├── models/         # Face, gesture, and expression models
+    ├── snowboy/        # Wake word detection module
+    ├── src/
+    │   ├── main.cpp    # Main robot control logic
+    │   ├── vision/     # Expression & gesture recognition
+    │   ├── voice/      # Voice wake and dialogue logic
+    │   └── display/    # OLED/LCD display handling
+    ├── assets/         # Expression icons or animations
+    ├── scripts/        # Deployment and launch scripts
+    └── README.md
+
 
 ## 🛠 Dependencies
 
@@ -67,5 +68,4 @@ make -j4
 # Run PIbot
 ./PIbot
 
-## photo
-![PIbot Demo](assets/pibot.gif)
+## photo.jpg)
