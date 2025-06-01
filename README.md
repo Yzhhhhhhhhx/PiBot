@@ -68,4 +68,7 @@ make -j4
 # Run PIbot
 ./PIbot
 
-## photo.jpg)
+
+
+##   photo
+![image](https://github.com/Yzhhhhhhhhx/PiBot/blob/main/pibot.jpg)
