@@ -67,3 +67,5 @@ make -j4
 # Run PIbot
 ./PIbot
 
+![pibot](https://github.com/user-attachments/assets/0b09ba1f-a333-48ea-b8fb-3659e1a0870f)
+
