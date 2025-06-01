@@ -34,4 +34,36 @@
 | 5       | run forward                  |
 
 ## 🗂️ Project Structure
+PIbot/
+├── models/ # Face, gesture, and expression models
+├── snowboy/ # Wake word detection module
+├── src/
+│ ├── main.cpp # Main robot control logic
+│ ├── vision/ # Expression & gesture recognition
+│ ├── voice/ # Voice wake and dialogue logic
+│ └── display/ # OLED/LCD display handling
+├── assets/ # Expression icons or animations
+├── scripts/ # Deployment and launch scripts
+└── README.md
+
+## 🛠 Dependencies
+
+- Paddle Lite
+- OpenCV 4.5+
+- Snowboy (local wake word engine)
+- C++17
+- Raspberry Pi OS
+- LCD/OLED screen (I2C/SPI supported)
+
+## ⚡ Quick Start
+
+```bash
+# Build the main program
+cd src
+mkdir build && cd build
+cmake ..
+make -j4
+
+# Run PIbot
+./PIbot
 
