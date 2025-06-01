@@ -28,10 +28,10 @@
 | Gesture | Action Description           |
 |---------|------------------------------|
 | 1       | Greet or wave                |
-| 2       | Switch expression            |
-| 3       | Speak or start conversation  |
+| 2       | stand up                     |
+| 3       | lay                          |
 | 4       | Blink or wink animation      |
-| 5       | Go to sleep / idle state     |
+| 5       | run forward                  |
 
 ## 🗂️ Project Structure
 
