@@ -67,3 +67,5 @@ make -j4
 # Run PIbot
 ./PIbot
 
+## photo
+![PIbot Demo](assets/pibot.gif)
